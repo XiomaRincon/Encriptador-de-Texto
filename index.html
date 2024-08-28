@@ -1,0 +1,47 @@
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" href="./img/logo-alura.png">
+        <title>Encriptador de Textos</title>
+        <link rel="stylesheet" href="./styles.css"/>
+    </head>
+    <body>
+
+        <header> 
+            <a href="#" rel="">
+                <img src="img/logo-alura.png" alt="Logo alura" class="logo">
+            </a>
+        </header>
+
+        <main>
+            <section class="encriptador">
+                <textarea name="encriptar" placeholder="Ingrese el texto aquí"></textarea>
+                <div class="encriptador-aviso">
+                    <img src="./img/bi_exclamation-circle-fill.png" alt="Imagen Aviso" class="img-aviso">
+                    <p class="texto-aviso">Solo letras minúsculas y sin acentos</p>
+                </div>
+                <div class="encriptador-contenedor">
+                    <button type="button" class="btn-encriptador">¡Encriptar!</button>
+                    <button type="button" class="btn-desencriptar">¡Desencriptar!</button>
+                </div>
+            </section>    
+            <section class="tarjeta"> 
+                <div class="tarjeta-contenedor">
+                    <img src="./img/Muneco.png" alt="Imagen Muñeco" class="img-muñeco">
+                    <p class="texto-uno">Ningún mensaje fue encontrado</p>
+                    <p class="texto-uno">Ingrese el texto que deseas encriptar o desencriptar</p>
+                </div>
+                <textarea class="evaluar" readonly></textarea>
+                <button type="button" class="btn-copiar">Copiar</button>
+            </section>
+        </main>
+
+        <footer>
+            <p class="copyright">&copy; 2024 - Encriptador de Texto - desarrollado por Xiomara Rincón</p>
+        </footer>
+
+        <script src="./index.js"></script>
+    </body>
+</html>
